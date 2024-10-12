@@ -6,9 +6,9 @@ class Dataload:
     def __init__(self):
         self.db_config = {#Provide the details based on the environment on which you are working or using. 
             'dbname': 'github_data_dive',
-            'user': 'postgres',
-            'password': 'root',
-            'host': 'localhost',
+            'user': 'postgres_jb',
+            'password': '9sL0xvEMUcGeqcNXJzQbIfkXZC47KLMC',
+            'host': 'dpg-cs57f1g8fa8c73ahd940-a',
             'port': 5432
         }
 
