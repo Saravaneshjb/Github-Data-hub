@@ -1,0 +1,12 @@
+pandas           # Data handling and analysis
+requests        # HTTP library to make API calls (for GitHub API)
+PyGithub          # GitHub API wrapper for easier access
+github
+sqlalchemy      # ORM for connecting to SQL databases
+streamlit        # Building interactive web apps
+plotly           # Visualization for the Streamlit app
+matplotlib       # Additional visualizations
+psycopg2        # PostgreSQL adapter (if using PostgreSQL as a database)
+# sqlite3                 # For SQLite database if you want a lightweight DB solution
+numpy          # For numerical operations
+mysql-connector-python
