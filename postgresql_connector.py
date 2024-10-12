@@ -1,15 +1,16 @@
 import psycopg2
 import pandas as pd
 import logging
+import os
 
 class Dataload:
     def __init__(self):
         self.db_config = {#Provide the details based on the environment on which you are working or using. 
-            'dbname': 'github_data_dive',
-            'user': 'postgres_jb',
-            'password': '9sL0xvEMUcGeqcNXJzQbIfkXZC47KLMC',
-            'host': 'dpg-cs57f1g8fa8c73ahd940-a',
-            'port': 5432
+            'dbname': os.getenv('DB_NAME'),
+            'user': os.getenv('DB_USER'),
+            'password': os.getenv('DB_PASSWORD'),
+            'host': os.getenv('DB_HOST'),
+            'port': os.getenv('DB_PORT')
         }
 
     def create_connection(self):
