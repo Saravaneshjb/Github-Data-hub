@@ -1,12 +1,8 @@
 pandas           # Data handling and analysis
 PyGithub          # GitHub API wrapper for easier access
-github
 sqlalchemy      # ORM for connecting to SQL databases
 streamlit        # Building interactive web apps
 plotly           # Visualization for the Streamlit app
 matplotlib       # Additional visualizations
 psycopg2        # PostgreSQL adapter (if using PostgreSQL as a database)
 numpy          # For numerical operations
-pip>=24.2
-setuptools>=66.0
-wheel
